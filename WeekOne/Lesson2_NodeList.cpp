@@ -280,26 +280,26 @@ void PrintLinkList(LinkList L) {
     printf("null\n");
 }
 
-int main() {
-    LinkList L1, L2;
-
-    CreateList_H(L1, 10);
-    PrintLinkList(L1);
-
-//    CreateList_T(L2, 10);
-//    PrintLinkList(L2);
-
-    printf("insert 98 at idx 10.\n");
-    InsertElem(L1, 10, 98);
-    PrintLinkList(L1);
-
-    int res;
-    DeleteElem(L1, 5, res);
-    printf("delete %i at idx 5.\n", res);
-    PrintLinkList(L1);
-
-    return 0;
-}
+//int main() {
+//    LinkList L1, L2;
+//
+//    CreateList_H(L1, 10);
+//    PrintLinkList(L1);
+//
+////    CreateList_T(L2, 10);
+////    PrintLinkList(L2);
+//
+//    printf("insert 98 at idx 10.\n");
+//    InsertElem(L1, 10, 98);
+//    PrintLinkList(L1);
+//
+//    int res;
+//    DeleteElem(L1, 5, res);
+//    printf("delete %i at idx 5.\n", res);
+//    PrintLinkList(L1);
+//
+//    return 0;
+//}
 
 
 
