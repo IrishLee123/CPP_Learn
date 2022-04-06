@@ -11,7 +11,7 @@
 #define ERROR  0
 #define INFEASIBLE  -1
 #define OVERFLOW  -2
-#define MAX_SIZE 10
+#define MAX_SIZE 50
 
 typedef int Status;
 
@@ -331,33 +331,33 @@ void PrintSqList(SqList<T> L) {
     std::cout << "]" << std::endl;
 }
 
-int main() {
-
-//    typeInstruction();
-//    listDefine();
-
-    SqList<int> sqList;
-
-    InitList_Sq(sqList);
-    for (int i = 1; i < 10; i++) {
-        ListInsert_Sq(sqList, sqList.length + 1, i);
-    }
-
-    PrintSqList(sqList);
-
-    int a;
-    GetElem(sqList, 8, a);
-    std::cout << "get num 8 elem: ";
-    std::cout << a << std::endl;
-
-    ListDelete(sqList,3,a);
-    std::cout << "delete num 3 elem: ";
-    std::cout << a << std::endl;
-
-    PrintSqList(sqList);
-
-    return 0;
-}
+//int main() {
+//
+////    typeInstruction();
+////    listDefine();
+//
+//    SqList<int> sqList;
+//
+//    InitList_Sq(sqList);
+//    for (int i = 1; i < 10; i++) {
+//        ListInsert_Sq(sqList, sqList.length + 1, i);
+//    }
+//
+//    PrintSqList(sqList);
+//
+//    int a;
+//    GetElem(sqList, 8, a);
+//    std::cout << "get num 8 elem: ";
+//    std::cout << a << std::endl;
+//
+//    ListDelete(sqList,3,a);
+//    std::cout << "delete num 3 elem: ";
+//    std::cout << a << std::endl;
+//
+//    PrintSqList(sqList);
+//
+//    return 0;
+//}
 
 //顺序表总结：
 //优点：
